@@ -1,8 +1,9 @@
 import java.util.Arrays;
 //Note: The array has to have an even number of elements in order to work!
+
 public class Main {
     public static void main(String[] args) {
-        int[] num1 = {1,2,3,4,5,6,7,8,9,10, 12, 13, 14, 15, 23};
+        int[] num1 = {1,2,3,4,5,6,7,8,9,10, 11, 12, 13, 14};
         int lenNum1 = num1.length;
 
         int[] shuffled = new int[lenNum1];
